@@ -19,6 +19,12 @@ namespace LogicalProgram236
                 case 1:Fibbonacciseries fibbonacciseries = new Fibbonacciseries();
                     fibbonacciseries.fibo();
                     break;
+                case 2:
+                    Console.WriteLine("Enter The Number");
+                    int num = Convert.ToInt32(Console.ReadLine());
+                    PerfectNumber perfectNumber = new PerfectNumber();
+                    perfectNumber.perfectno(num);
+                    break;
             }
             Console.ReadLine();
         }
