@@ -33,6 +33,10 @@ namespace LogicalProgram236
                     ReverseNumber reverseNumber = new ReverseNumber();
                     reverseNumber.Reverse();
                     break;
+                case 5:
+                    CoupanNumber coupanNumber = new CoupanNumber();
+                    coupanNumber.Coupan();
+                    break;
 
 
             }
