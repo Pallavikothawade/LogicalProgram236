@@ -25,6 +25,11 @@ namespace LogicalProgram236
                     PerfectNumber perfectNumber = new PerfectNumber();
                     perfectNumber.perfectno(num);
                     break;
+                case 3:
+                    PrimeNumber primeNumber = new PrimeNumber();
+                    primeNumber.Prime();
+                    break;
+
             }
             Console.ReadLine();
         }
