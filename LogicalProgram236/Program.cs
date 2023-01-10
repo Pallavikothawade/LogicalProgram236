@@ -29,6 +29,11 @@ namespace LogicalProgram236
                     PrimeNumber primeNumber = new PrimeNumber();
                     primeNumber.Prime();
                     break;
+                case 4:
+                    ReverseNumber reverseNumber = new ReverseNumber();
+                    reverseNumber.Reverse();
+                    break;
+
 
             }
             Console.ReadLine();
